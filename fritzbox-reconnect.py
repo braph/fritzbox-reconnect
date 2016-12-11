@@ -75,7 +75,7 @@ class FritzboxTelnet:
 
     def test_shell(self):
         try:
-            self.telnet_p.sendline('echo TEST')
+            self.telnet_p.sendline('echo "TE""ST"')
             self.telnet_p.expect(['TEST'], 2)
         except pexpect.exceptions.TIMEOUT:
             raise Exception("Test command failed. Invalid login?")
