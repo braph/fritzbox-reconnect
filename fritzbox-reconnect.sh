@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # fritzbox-reconnect - reconnect script for fritzbox
 # Copyright (C) 2015 Benjamin Abendroth

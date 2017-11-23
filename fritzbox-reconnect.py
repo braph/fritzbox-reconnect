@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # fritzbox-reconnect - reconnect script for fritzbox
 # Copyright (C) 2015 Benjamin Abendroth
